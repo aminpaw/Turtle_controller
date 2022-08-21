@@ -1,0 +1,4 @@
+<launch>
+<rosparam file="$(find turtle_controller)/config/settings.yaml" />
+<node name = "turtle_goto" pkg = "turtle_controller" type = "controller.py"/>
+</launch>

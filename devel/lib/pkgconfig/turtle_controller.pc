@@ -1,0 +1,8 @@
+prefix=/mnt/c/Users/Amin/Desktop/project/devel
+
+Name: turtle_controller
+Description: Description of turtle_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
