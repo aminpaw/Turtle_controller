@@ -47,6 +47,7 @@ while not rospy.is_shutdown():
 		if (abs(angleError) < 0.000001):
 			reached_theta = True
 			message.angular.z = 0
+		pub.publish(message)
 
 	while (reached_pos == False):
 		dis= (distance(x_goal,y_goal,x,y))
